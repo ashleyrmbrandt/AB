@@ -1,0 +1,209 @@
+{
+	"Changes": [
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+
+                "20703/F/f Lewis 0/j 7/w sunny/y 1" : "continue/64 15/farmer 64 16 2 Lewis 64 18 0/pause 1500/speak Lewis\"Hey, did your granddad's letter mention anything about his old tractor?\"/pause 800/speak Lewis\"The governor wanted me to tow that old rust bucket to the junkyard, said it was a 'public health hazard'.$a#$b#Except... well, I can't remember the last time I saw it.$s#$b#But it can't have gone far! That old hunk of junk doesn't even run.#$b#Tell me if you run into it on the farm, and if you want it sent to the scrap yard. Who knows, maybe you'll get it running again.$h\"/addConversationTopic TractorNotFound/addQuest RestoreTractorQuest/pause 500/end"
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+
+                "TractorNotFound": "You know, I never saw an old tractor when I was exploring the farm.#$e#Then again, I don't think I ever made it over to the west side of the property.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+            {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+
+                "TractorNotFound": "I heard Lewis is finally getting rid of that old tractor.#$b#Jodi will be so relieved, I know she was worried about tetanus with the kids climbing all over it.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+           {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+
+                "TractorNotFound":,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+
+                "TractorNotFound":,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+
+                "TractorNotFound":,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+
+                "TractorNotFound":,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+
+                "TractorNotFound":,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+
+                "TractorNotFound":,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+
+                "TractorNotFound": "Do you have to get rid of the tractor? Can't you fix it?",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+
+                "TractorNotFound": "The tractor? You mean that death trap's still out there?#$b#But it's a public health hazard!$a#$e#I'll have to remind Marnie not to let the kids play in the field.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+
+                "TractorNotFound": "No sign of the tractor yet? Maybe it'll turn up this winter when the field's clear.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+
+                "TractorNotFound": "I bet you're already sick of hearing about that tractor.#$b#So am I, believe me.#$e#It can't be too far from the ranch, the kids don't stray that much.#$b#Have you tried the southern edge of your property?",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+
+                "TractorNotFound": "My mom told me about your grandpa's old tractor. It sounds like it could be a fun project!$h#$b#Assuming you find it, of course.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+
+                "TractorNotFound": "Lewis told me about your tractor problem.#$b#Well, his tractor problem. He told the governor he took care of that thing a long time ago.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+
+                "TractorNotFound": "I understand you've got a missing tractor on your hands. Leave it to Lewis to missplace an entire tractor.$h",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+          {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+
+                "TractorNotFound": "You're getting rid of the tractor?#$b#But it's my turn to be the driver next!$s",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+
+                "TractorNotFound": ,
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
+        {
+			"Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+
+                "TractorNotFound": "The tractor that you seek...#$b#...is hiding in plain sight.",
+                "ScytheNotFound":,
+                "LoaderNotFound":,
+
+            },
+        },
