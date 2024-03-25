@@ -1,0 +1,22 @@
+            if (n?.Name == "Lewis" && this.State == RestorationState.TalkToLewis)
+            {
+                this.Spout(n, "Well, what do you think? Is it beyond salvaging?#$b#Before you write it off, maybe have Maru take a look at it. Or Sebastian, he's got a good track record with these things.");
+                this.State = RestorationState.TalkToMaru;
+            }
+            else if (n?.Name == "Maru" && this.State == RestorationState.TalktoMaru)
+            {
+                this.Spout(n, "So you did find the tractor! That's great.#$b#Oh, I did say it sounded like a fun project... and it does! But I'm kind of in the middle of one already.#$b#If you just want to get it up and running, maybe try my brother?");
+                Game1.drawDialogue(n);
+                this.State = RestorationState.TalktoSebastian;
+            }
+            else if (n?.Name == "Sebastian" && this.State == RestorationState.TalkToSebastian)
+            {
+                this.Spout(n, "A tractor...?#$b#Yeah, not really my thing. I don't know why Maru would say that.#$b#Sorry.");
+                Game1.drawDialogue(n);
+                this.State = RestorationState.TalkToLewisAgain;
+            }
+            else if (n?.Name == "Lewis" && this.State == RestorationState.TalkToLewisAgain)
+            {
+                this.Spout(n, "Both of them turned you down? Kids these days...#$b#Don't give up hope just yet. I've got a trump card up my sleeve.");
+                Game1.drawDialogue(n);
+                this.State = RestorationState.WaitingForMailFromRobinDay1;
