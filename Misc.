@@ -1,3 +1,4 @@
+// for RestoreTractorQuest.cs
             if (n?.Name == "Lewis" && this.State == RestorationState.TalkToLewis)
             {
                 this.Spout(n, "Well, what do you think? Is it beyond salvaging?#$b#Before you write it off, maybe have Maru take a look at it. Or Sebastian, he's got a good track record with these things.");
@@ -20,3 +21,16 @@
                 this.Spout(n, "Both of them turned you down? Kids these days...#$b#Don't give up hope just yet. I've got a trump card up my sleeve.");
                 Game1.drawDialogue(n);
                 this.State = RestorationState.WaitingForMailFromRobinDay1;
+
+// for Robin mail key
+ "Hey there!^I think we've got a game plan for your tractor, but we're going to need a workspace—and you'll need a garage for the tractor anyway, right?^ ^If you can supply me with 300 wood, 200 stone and 350g for tools, you'll have a new garage and a working tractor in no time.^ ^See you soon!^  - Robin[#]Build the garage";
+
+// for sibling team up event
+  {
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+
+            "207031/F/f Robin 0/f Maru 0/f Sebastian 0" : "continue/64 15/farmer 64 16 2 Robin 64 18 0 Sebastian 66 20 0 Maru 62 20 0/pause 1500/speak Robin\"Now that I've done my part, these two are going to take over.\"/pause 200/faceDirection Robin 1 [continue]/faceDirection Robin 3 [continue]/speak Robin\"Since they're both so busy, I figured they might as well share the workload.$h\"/pause 300/speak Maru\"I've already drawn up a preliminary agenda for Sebastian and I to tag team.$u\"/pause 300/speak Sebastian\"Great...$a\"/pause 500/speak Robin\"We're a family of night owls, so you might not see them working in the garage. But don't worry! I'll be keeping a close eye on their progress.\"/pause 500/end"
+            },
+        },
